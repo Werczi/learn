@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <div class="row create-message-panel">
+        <div class="col s12 m5">
+            <div class="card-panel #e0e0e0 grey lighten-2">
+                <form>
+                    <p>Let's create your secret message</p>
+                    <input id="input_text" class="create-message-input" type="text" data-length="10">
+                    <button class="waves-effect waves-light btn sumbit-btn">CREATE</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row link-panel hide">
+        <div class="col s12 m5">
+            <div class="card-panel #e0e0e0 grey lighten-2">
+                <p>Copy link and send a secret message to your friend!</p>
+                <input id="link_area" type="text" data-length="10" />
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row hide show-message-panel">
+        <div class="col s12 m5">
+            <div class="card-panel #e0e0e0 grey lighten-2">
+                <p>Someone send you a secret message: </p>
+                <input id="show_message_input" type="text" data-length="10">
+                <a href="file:///Users/wera/Desktop/secret/index.html">Create your own
+                    secret message</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src=" index.js"></script>
+</body>
+
+</html>
